@@ -1,0 +1,11 @@
+.projects__grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24em, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(14em, 1fr));
+    grid-gap: 2.5em;
+    grid-column: span 2;
+  }
+
+  
